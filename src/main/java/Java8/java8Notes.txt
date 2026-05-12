@@ -1,0 +1,71 @@
+
+---------java 8------------
+
+-Minimal code
+
+-functional programing benefits in oops nature
+
+--------features-----------
+1)Lambda expression
+
+- it is similar to method but they do not need name
+-It is anonymous function
+(x,y)-> x-y
+-it does not have any name , return type and any modifier and place arrow
+(a,b) -> {//parameter does not need declare type because type inference
+
+System.out.println("Hello world");
+
+}
+-no return keyword needed
+-if single parameter pass then we have skip ,()parenthesis
+
+-----------------benefits of lambada expression--------------
+
+-To enable functional programming in java.
+
+=>To make code more readable,maintable
+
+-to enable parallel processing.
+
+=>Jar file size reduction.
+
+----------------------------------------------------------------
+2)Functional Interface
+
+-Interface having exactly single abstract method but  any number of default and
+static method.
+
+-we have invoke lambda expression by using functional interface.
+
+-functional interface is act as type of lambada expression
+
+---------------------inheritence in functional interface----------------
+
+-
+
+
+3)Date and time
+
+13)forEach method
+
+-package java.time
+
+4)Base64 encoded decoded
+
+java.util.Base64
+
+5)Method reference and constructor reference
+
+:: operator
+
+6)Default/static methods in interface/function interface
+
+
+7)Functional interface
+
+-it is an interface that has exactly one abstract method.
+
+@FunctionalInterface annotation
+
+8)Optional class
