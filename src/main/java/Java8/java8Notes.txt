@@ -42,8 +42,14 @@ static method.
 
 ---------------------inheritence in functional interface----------------
 
--
+---------difference between lambada expression and anonymous class------------
 
+-only one abstarct method is required(Func Inter)            -we can declare multiple abstarct method and implement uisng annony class
+
+-----------------------------------------------------------------
+--------------predicate---------------------------
+-boolean value function.
+-It is functional interface
 
 3)Date and time
 

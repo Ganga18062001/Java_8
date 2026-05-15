@@ -18,7 +18,7 @@ public class ComparatorInLambadaExpre {
         li.add(102);
 
        // Collections.sort(li,new Check());//instedb of this
-        //Collections.sort(li,(a,b)->a-b);//we does not need to use compare method
+        Collections.sort(li,(a,b)->a-b);//we does not need to use compare method
 
         System.out.println(li);
 //---------------------------------------------------------------
