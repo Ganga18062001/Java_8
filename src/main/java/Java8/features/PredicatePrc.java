@@ -30,7 +30,7 @@ public class PredicatePrc {
         Predicate<Integer> p1 = n -> n > 10;
         Predicate<Integer> p2 = n -> n % 2 == 0;
 
-        System.out.println(p.and(p2).test(20));
+        System.out.println(p1.and(p2).test(10));
 
         //isEqual
 

@@ -1,0 +1,13 @@
+
+
+-Consumer is a functional interface present in Java Java 8 inside the java.util.function package.
+
+=It is used when we want to take input and perform some operation, but it does not return any value.
+
+ -It contains one abstract method: void accept(T t)
+
+ => method in consumer is
+
+ 1) accept()
+
+ 2) andThen()

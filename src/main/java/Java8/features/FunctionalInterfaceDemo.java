@@ -1,6 +1,6 @@
 package Java8.features;
 
-@FunctionalInterface
+//@FunctionalInterface
 interface MyInterface{
 
      void sayHello();//only one abstract method allow
@@ -21,7 +21,7 @@ interface MyInterface{
 
 }
 
-@FunctionalInterface
+//@FunctionalInterface
 
 interface ChildInt extends MyInterface{
 

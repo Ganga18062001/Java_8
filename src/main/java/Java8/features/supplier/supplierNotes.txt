@@ -1,0 +1,14 @@
+
+- Supplier is a functional interface present in Java 8 inside java.util.function package.
+
+-It is used when we want to supply/provide data without taking any input.
+
+-It contains one abstract method: T get();
+
+Difference Between Consumer, Function, Supplier
+
+| Interface | Input | Return |
+| --------- | ----- | ------ |
+| Consumer  | Yes   | No     |
+| Function  | Yes   | Yes    |
+| Supplier  | No    | Yes    |
