@@ -1,0 +1,20 @@
+---------method refernce--------------------
+
+-Method reference is a short way to call a method using :: operator instead of
+writting a lambada expression.
+
+-Method reference works only when:
+
+ Functional interface contains one abstract method
+ Method signature matches the abstract method
+
+-Syntax =>
+           ClassName::methodName
+
+
+ -----------------constructor refernces-----------------
+
+ -Constructor reference is a special type of method reference used to call constructors.
+
+ Synta =>
+         className :: new

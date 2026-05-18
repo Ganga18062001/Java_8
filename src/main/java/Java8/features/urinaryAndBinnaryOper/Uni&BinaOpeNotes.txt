@@ -1,0 +1,36 @@
+___________UnaryOperator -------------------------
+
+-UnaryOperator in java 8 is a functional interface present in the
+java.util.function package.
+
+-It is special type of function , where input type and return type are the same.
+
+-It contain apply() is abstarct method.
+
+-it is mainly used for modifyion a single value .
+
+- It is commonly used in streams , collection and lambda expressions
+
+
+
+
+
+
+
+
+
+
+
+-----------Binnary operator-----------
+
+
+-BinaryOperator is a functional interface in Java Java 8 present in java.util.function package.
+
+-It is used when:
+
+ we take two input values
+ both inputs are of same type
+ and return type is also the same type
+
+ internally =>
+              interface BinaryOperator<T> extends BiFunction<T,T,T>
