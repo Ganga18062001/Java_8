@@ -51,6 +51,26 @@ public class Main {
         List<Integer> check = li.stream().map(x -> x / 2).collect(Collectors.toList());
         //System.out.println(check);
 
+        List<Integer> scoreList = Arrays.asList(50,60,90,40,99);
+        List<Integer> filterList = scoreList.stream()
+                .filter(x -> x % 2 == 0)
+                .map(x -> x/2)
+                .distinct()
+                .sorted((a,b)->(b-a))
+                .limit(2)
+                .skip(1)
+                .collect(Collectors.toList());
+
+
+
+        System.out.println(filterList);
+
+        List<Integer> colle1 = Stream.iterate(0, x -> x + 1)
+                .limit(100)
+                .skip(1)
+                .filter(x -> x%2 ==0)
+                .collect(Collectors.toList());
+        System.out.println(colle1);
 
 
     }
