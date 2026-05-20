@@ -1,0 +1,16 @@
+1)Readability :
+              - stream provide more readable and expressive way to perform
+              operations on collections
+
+  2)flexibility :
+                - it allows to perform a variety oof operations on collections
+                such as filtering,mapping and reducing without write multiplpe loops
+                or methods.
+
+                - It is save time and make your code more flexible.
+
+   3)Parallelism : we can write multi-threaded code to achive parallelism.
+                    - it convert data into chunk.
+
+   4) Encapsulation : Iit can perform series of operation ona collection
+                      without modifiy original data.

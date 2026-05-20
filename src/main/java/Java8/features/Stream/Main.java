@@ -1,9 +1,6 @@
 package Java8.features.Stream;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -75,7 +72,27 @@ public class Main {
                 .sorted((x,y)-> y-x)
                .collect(Collectors.toList());
 
-        System.out.println(colle1);
+        //System.out.println(colle1);
+
+        ArrayList<Integer> marks = new ArrayList<>();
+        marks.add(100);
+        marks.add(50);
+        marks.add(80);
+        marks.add(90);
+        marks.add(77);
+
+        ArrayList<Integer> ai = marks.stream()
+                .filter(x-> x % 2 == 0)
+                .collect(Collectors.toCollection(ArrayList::new));
+
+        System.out.println(ai);
+
+
+
+
+
+
+
 
 
     }
