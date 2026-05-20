@@ -8,6 +8,8 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+
+
 public class Main {
     public static void main(String[] args) {
 
@@ -63,13 +65,16 @@ public class Main {
 
 
 
-        System.out.println(filterList);
+       // System.out.println(filterList);
 
         List<Integer> colle1 = Stream.iterate(0, x -> x + 1)
                 .limit(100)
-                .skip(1)
+               .skip(1)
                 .filter(x -> x%2 ==0)
-                .collect(Collectors.toList());
+                .peek(x-> System.out.print(x))
+                .sorted((x,y)-> y-x)
+               .collect(Collectors.toList());
+
         System.out.println(colle1);
 
 
